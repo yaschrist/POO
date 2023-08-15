@@ -1,0 +1,22 @@
+
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author Yasmin Kamilly Christ    
+ * 14/08 - Aula 1 - Programação Orientada a Objetos
+ */
+public class ExemploUm { //Nome do arquivo da classe deve ser o mesmo
+    public static void main(String args[]) {
+        String nome; 
+        int idade;
+        
+        nome = JOptionPane.showInputDialog("Digite seu nome: "); 
+        idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade: "));
+        
+        JOptionPane.showMessageDialog(null, "Olá " + nome + "\n" + "Você tem " + idade + " anos");
+       
+        //Importação da biblioteca é automática com Netbeans. (Fix Imports - Bot Dir)
+        //Shift F6 Compila e executa // ícone martelo
+    }
+}
